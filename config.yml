@@ -1,0 +1,12 @@
+# Description: Configuration file for ssh-key-manager
+
+ssh_keys:
+  - name: ssh_key_1
+    description: My primary SSH key
+    git_config_username: my_github_username_0
+    git_config_email: my_github_email_0
+
+  - name: ssh_key_2
+    description: Secondary SSH key
+    git_config_username: my_github_username_1
+    git_config_email: my_github_email_1
